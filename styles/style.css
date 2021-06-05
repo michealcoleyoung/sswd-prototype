@@ -1,8 +1,17 @@
 body {
     background-color: #f2ebd5;
+    background-image: url(../images/image\ 3.png)
 }
 
-.navbar {
+.navbar,
+.nav {
     background-color: #022623;
     padding: 15px;
+}
+
+.nav-item,
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    color: #f2ebd5;
+    text-decoration: none;
 }
