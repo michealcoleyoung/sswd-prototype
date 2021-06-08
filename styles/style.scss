@@ -1,0 +1,31 @@
+body,
+html {
+    background-color: #f2ebd5;
+    height: 100%;
+}
+
+.navbar,
+.nav {
+    background-color: #022623;
+    padding: 15px;
+}
+
+.nav-item,
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    color: #f2ebd5;
+    text-decoration: none;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/5453407.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center top;
+    background-size: cover;
+    margin-left: calc(-50vw + 50%);
+    border: none;
+    mix-blend-mode: color-burn;
+}
