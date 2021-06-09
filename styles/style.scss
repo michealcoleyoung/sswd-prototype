@@ -19,7 +19,7 @@ html {
 
 .bg {
     /* The image used */
-    background-image: url("../images/5453407.jpg");
+    background-image: url("../images/4822589.png");
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
@@ -27,5 +27,9 @@ html {
     background-size: cover;
     margin-left: calc(-50vw + 50%);
     border: none;
-    mix-blend-mode: color-burn;
+    /* mix-blend-mode: color-burn; */
+}
+
+.content {
+    margin-top: 150px;
 }
