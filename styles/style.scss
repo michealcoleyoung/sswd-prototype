@@ -2,6 +2,7 @@ body,
 html {
     background-color: #f2ebd5;
     height: 100%;
+    overflow: hidden;
 }
 
 .navbar,
@@ -31,5 +32,23 @@ html {
 }
 
 .content {
-    margin-top: 150px;
+    margin-top: 2000px;
+}
+
+.home-image {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 58%;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    height: 500px;
+}
+
+.cti-items {
+    left: 58%;
+    width: 500px;
+    height: 500px;
+    float: left;
 }
