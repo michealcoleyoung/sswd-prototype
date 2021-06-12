@@ -31,24 +31,17 @@ html {
     /* mix-blend-mode: color-burn; */
 }
 
-.content {
-    margin-top: 2000px;
-}
+.home-content {}
 
 .home-image {
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 58%;
-    bottom: 0;
-    right: 0;
+    margin-top: 150px;
     width: 500px;
     height: 500px;
+    float: right;
 }
 
 .cti-items {
-    left: 58%;
-    width: 500px;
-    height: 500px;
+    margin-top: 350px;
     float: left;
+    font-family: 'Roboto', sans-serif;
 }
