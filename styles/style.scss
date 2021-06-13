@@ -5,6 +5,12 @@ html {
     overflow: hidden;
 }
 
+.nav-logo {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #f2ebd5;
+}
+
 .navbar,
 .nav {
     background-color: #022623;
@@ -31,8 +37,6 @@ html {
     /* mix-blend-mode: color-burn; */
 }
 
-.home-content {}
-
 .home-image {
     margin-top: 150px;
     width: 500px;
@@ -40,8 +44,21 @@ html {
     float: right;
 }
 
-.cti-items {
+.cta-items {
     margin-top: 350px;
     float: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cta-button {
+    background-color: #A64812;
+    color: white;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 11px;
+    font-size: 20px;
+}
+
+.cta-slogan {
     font-family: 'Roboto', sans-serif;
 }
