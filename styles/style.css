@@ -5,11 +5,6 @@ html {
   overflow: hidden;
 }
 
-.home-bg {
-  background: url("../images/4822591.jpg") no-repeat fixed center;
-  background-size: 1500px;
-}
-
 .nav-logo {
   width: 50px;
   height: 50px;
@@ -25,27 +20,28 @@ html {
 .nav-item,
 .nav-link {
   font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   color: #f2ebd5;
   text-decoration: none;
+  font-size: 20px;
 }
 
 .bg {
   /* The image used */
-  background-image: url("../images/4822589.png");
+  background-image: url("../images/test-background.png");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
-  background-position: center top;
+  /* background-position: center top; */
   background-size: cover;
-  margin-left: calc(-50vw + 50%);
+  /* margin-left: calc(-50vw + 50%); */
   border: none;
-  mix-blend-mode: color-burn;
 }
 
 .home-image {
   margin-top: 150px;
-  width: 500px;
-  height: 500px;
+  width: 550px;
+  height: 550px;
   float: right;
 }
 
@@ -72,6 +68,7 @@ html {
 
 .slogan {
   font-family: 'Roboto', sans-serif;
+  font-size: 55px;
   font-weight: 900;
 }
 /*# sourceMappingURL=style.css.map */
