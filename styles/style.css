@@ -39,7 +39,7 @@ html {
   background-size: cover;
   margin-left: calc(-50vw + 50%);
   border: none;
-  /* mix-blend-mode: color-burn; */
+  mix-blend-mode: color-burn;
 }
 
 .home-image {
@@ -52,10 +52,11 @@ html {
 .cta-items {
   margin-top: 350px;
   float: left;
-  font-family: 'Roboto', sans-serif;
 }
 
 .cta-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   background-color: #A64812;
   color: white;
   border: 1px solid black;
@@ -66,5 +67,11 @@ html {
 
 .cta-slogan {
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.slogan {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
 }
 /*# sourceMappingURL=style.css.map */
