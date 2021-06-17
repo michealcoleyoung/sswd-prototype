@@ -27,7 +27,7 @@
         }
         
         .bg {
-            /* The image used */
+            /* image file needs to be renamed */
             background-image: url("../images/test-background.png");
             /* Full height */
             height: 100%;
@@ -70,4 +70,8 @@
             font-family: 'Roboto', sans-serif;
             font-size: 55px;
             font-weight: 900;
+        }
+        
+        .about-content {
+            margin-top: 150px;
         }

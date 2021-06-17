@@ -1,7 +1,7 @@
 body,
 html {
   background-color: #f2ebd5;
-  height: 100%;
+  /* height: 100%; */
   overflow: hidden;
 }
 
@@ -70,5 +70,9 @@ html {
   font-family: 'Roboto', sans-serif;
   font-size: 55px;
   font-weight: 900;
+}
+
+.about-content {
+  margin-top: 150px;
 }
 /*# sourceMappingURL=style.css.map */
