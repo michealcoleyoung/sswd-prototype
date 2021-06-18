@@ -1,8 +1,8 @@
 body,
 html {
   background-color: #f2ebd5;
-  /* height: 100%; */
-  overflow: hidden;
+  height: 100%;
+  /* overflow: hidden; */
 }
 
 .nav-logo {
@@ -27,7 +27,7 @@ html {
 }
 
 .bg {
-  /* The image used */
+  /* image file needs to be renamed */
   background-image: url("../images/test-background.png");
   /* Full height */
   height: 100%;
@@ -73,6 +73,6 @@ html {
 }
 
 .about-content {
-  margin-top: 150px;
+  margin-top: 249px;
 }
 /*# sourceMappingURL=style.css.map */
