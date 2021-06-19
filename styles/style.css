@@ -1,6 +1,6 @@
 body,
 html {
-  background-color: #f2ebd5;
+  /* background-color: #f2ebd5; */
   height: 100%;
   /* overflow: hidden; */
 }
@@ -74,5 +74,11 @@ html {
 
 .about-content {
   margin-top: 249px;
+}
+
+.about-body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#F2EBD5), to(#A64812));
+  background: linear-gradient(#F2EBD5, #A64812);
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
