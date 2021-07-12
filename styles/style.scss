@@ -69,6 +69,17 @@ body {
     font-size: 20px;
 }
 
+.cta-button:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    background-color: red;
+    color: white;
+    border: 8px solid black;
+    padding: 15px;
+    border-radius: 11px;
+    font-size: 20px;
+}
+
 .cta-slogan {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
