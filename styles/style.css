@@ -38,7 +38,7 @@ body {
 
 .bg {
     /* image file needs to be renamed */
-    background-image: url("../images/home-background.png");
+    /* background-image: url("../images/home-background.png"); */
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
@@ -57,7 +57,6 @@ body {
 
 .cta-items {
     margin-top: 350px;
-    float: left;
 }
 
 .cta-button {
@@ -67,7 +66,7 @@ body {
     color: white;
     border: 1px solid black;
     padding: 15px;
-    border-radius: 11px;
+    border-radius: 50px;
     font-size: 20px;
 }
 
