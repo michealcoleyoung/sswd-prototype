@@ -38,8 +38,8 @@ body {
 
 .bg {
     /* image file needs to be renamed */
-    background-image: url("../images/home-background.png");
-    background: no-repeat;
+    background-image: url("../images/pexels-tranmautritam-285814.jpg");
+    /* background: no-repeat; */
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
@@ -47,8 +47,6 @@ body {
     background-size: cover;
     /* margin-left: calc(-50vw + 50%); */
     border: none;
-    opacity: .2;
-    overflow: hidden;
 }
 
 .cta-items {
@@ -81,6 +79,3 @@ body {
 .about-content {
     margin-top: 200px;
 }
-
-
-/*# sourceMappingURL=style.css.map */
