@@ -6,12 +6,12 @@ html {
 body {
     /* background: -webkit-gradient(linear, left top, left bottom, from(#F2EBD5)); */
     background: #F2EBD5;
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     margin: 0;
     /* background-size: cover; */
-    /* background-repeat: repeat-x;
-    background-attachment: fixed; */
+    /* background-repeat: repeat-x; */
+    background-attachment: fixed;
 }
 
 .nav-logo {
@@ -36,17 +36,13 @@ body {
     font-size: 20px;
 }
 
-.bg {
+.home-bg {
     /* image file needs to be renamed */
     background-image: url("../images/pexels-tranmautritam-285814.jpg");
-    /* background: no-repeat; */
-    /* Full height */
     height: 100%;
-    /* Center and scale the image nicely */
-    /* background-position: center top; */
     background-size: cover;
-    /* margin-left: calc(-50vw + 50%); */
     border: none;
+    overflow: hidden;
 }
 
 .cta-items {
@@ -68,12 +64,14 @@ body {
 .cta-slogan {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    color: #F2EBD5
 }
 
 .slogan {
     font-family: 'Roboto', sans-serif;
     font-size: 55px;
     font-weight: 900;
+    color: #F2EBD5;
 }
 
 .about-content {
