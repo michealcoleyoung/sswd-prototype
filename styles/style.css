@@ -11,7 +11,7 @@ body {
     margin: 0;
     /* background-size: cover; */
     /* background-repeat: repeat-x; */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .nav-logo {
@@ -36,24 +36,31 @@ body {
     font-size: 20px;
 }
 
-.home-bg {
+.hero-img {
     /* image file needs to be renamed */
-    background-image: url("../images/pexels-tranmautritam-285814.jpg");
-    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/online-web-design.jpg");
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.7; */
     background-size: cover;
-    border: none;
-    overflow: hidden;
+    background-repeat: no-repeat;
+    /* background-blend-mode: color-burn; */
 }
 
 .cta-items {
-    margin-top: 180px;
+    margin-top: 50px;
+    opacity: 1 !important;
 }
 
 .cta-button {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    background-color: #A64812;
-    color: white;
+    background: #A64812;
+    color: #F2EBD5;
     border: 1px solid #F2EBD5;
     padding: 15px;
     border-radius: 50px;
@@ -63,7 +70,7 @@ body {
 
 .cta-slogan {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 300px;
     color: #F2EBD5
 }
 
